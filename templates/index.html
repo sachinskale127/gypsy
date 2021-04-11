@@ -93,8 +93,10 @@
 				<div class="collapse navbar-collapse">		  
 					<ul class="nav navbar-nav navbar-right">
 						<li class="smooth-menu"><a href="#home">home</a></li>
-						<li class="smooth-menu"><a href="#gallery">Destination</a></li>
 						<li class="smooth-menu"><a href="#pack">Packages </a></li>
+						<li class="smooth-menu"><a href="#gallery">Top Destinations</a></li>
+						<li class="smooth-menu"><a href="#spo">Special Offers</a></li>
+						<li class="smooth-menu"><a href=".footer-content">Contact Us </a></li>
 						<li>
 						<button class="book-btn">book now</button>
 						</li><!--/.project-btn--> 
@@ -144,70 +146,55 @@
 		<section  class="travel-box">
         	<div class="container">
         		<div class="row">
-        			<div class="col-md-12">
-        				<div class="single-travel-boxes">
-        					<div id="desc-tabs" class="desc-tabs">
+        		<div class="col-md-12">
+        		<div class="single-travel-boxes">
+        		<div id="desc-tabs" class="desc-tabs">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
+								<i class="fa fa-tree"></i>
+									tours
+							</a>
+						</li>
 
-								<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation">
+						<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
+						<i class="fa fa-building"></i>hotels</a>
+						</li>
+						<li role="presentation">
+							<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
+							<i class="fa fa-plane"></i>flights</a>
+						</li>
+					    </ul>
 
-									<li role="presentation" class="active">
-									 	<a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
-									 		<i class="fa fa-tree"></i>
-									 		tours
-									 	</a>
-									</li>
+						<!-- Tab panes -->
+						<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active fade in" id="tours">
+						<div class="tab-para">
+						<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+						<div class="single-tab-select-box"><h2>destination</h2>
+						<div class="travel-select-icon">
+						<select class="form-control ">
+							<option value="default">enter your destination location</option><!-- /.option-->
+									<option value="Kolkata">Kolkata</option><!-- /.option-->
+									<option value="Chennai">Chennai</option><!-- /.option-->
+									<option value="Kashmir">Kashmir</option><!-- /.option-->
+							</select><!-- /.select-->
+							</div><!-- /.travel-select-icon -->
 
-									<li role="presentation">
-										<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
-											<i class="fa fa-building"></i>
-											hotels
-										</a>
-									</li>
+						</div><!--/.single-tab-select-box-->
+						</div><!--/.col-->
 
-									<li role="presentation">
-									 	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
-									 		<i class="fa fa-plane"></i>
-									 		flights
-									 	</a>
-									</li>
-								</ul>
-
-								<!-- Tab panes -->
-								<div class="tab-content">
-
-									<div role="tabpanel" class="tab-pane active fade in" id="tours">
-										<div class="tab-para">
-
-											<div class="row">
-												<div class="col-lg-4 col-md-4 col-sm-12">
-													<div class="single-tab-select-box">
-														<h2>destination</h2>
-														<div class="travel-select-icon">
-															<select class="form-control ">
-
-															  	<option value="default">enter your destination location</option><!-- /.option-->
-
-															  	<option value="Kolkata">Kolkata</option><!-- /.option-->
-
-															  	<option value="Chennai">Chennai</option><!-- /.option-->
-															  	<option value="Kashmir">Kashmir</option><!-- /.option-->
-
-															</select><!-- /.select-->
-														</div><!-- /.travel-select-icon -->
-
-													</div><!--/.single-tab-select-box-->
-												</div><!--/.col-->
-
-												<div class="col-lg-2 col-md-3 col-sm-4">
-													<div class="single-tab-select-box">
-														<h2>check in</h2>
-														<div class="travel-check-icon">
-															<form action="#">
-																<input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2017 ">
-															</form>
-														</div><!-- /.travel-check-icon -->
-													</div><!--/.single-tab-select-box-->
-												</div><!--/.col-->
+						<div class="col-lg-2 col-md-3 col-sm-4">
+						<div class="single-tab-select-box"><h2>check in</h2>
+						<div class="travel-check-icon">
+						<form action="#">
+						<input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2017 ">									
+			            </form>
+						</div><!-- /.travel-check-icon -->
+						</div><!--/.single-tab-select-box-->
+						</div><!--/.col-->
 
 												<div class="col-lg-2 col-md-3 col-sm-4">
 													<div class="single-tab-select-box">
@@ -575,7 +562,7 @@
 									amazing tour packages
 									</a>
 								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+								<p>Have a wonderful vacation within cheap price range.</p>
 							</div><!--/.service-content-->
 						</div><!--/.single-service-box-->
 					</div><!--/.col-->
@@ -591,7 +578,7 @@
 										book top class hotel
 									</a>
 								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+								<p>Book top class hotels with cheapest price</p>
 							</div><!--/.service-content-->
 						</div><!--/.single-service-box-->
 					</div><!--/.col-->
@@ -608,7 +595,7 @@
 										online flight booking
 									</a>
 								</h2>
-								<p>Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.</p>
+								<p>Done with hotel bookings? We provide you flight bookings too.</p>
 							</div><!--/.service-content-->
 						</div><!--/.single-service-box-->
 					</div><!--/.col-->
@@ -619,6 +606,106 @@
 		</section><!--/.service-->
 		<!--service end-->
 
+
+		<!--galley start-->
+		<section id="gallery" class="gallery" >
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2>
+							Top Destinations
+						</h2>
+						<p>
+							Get a trip to our Top Destinations
+						</p>
+					</div><!--/.gallery-header-->
+					<div class="gallery-box" >
+						<div class="gallery-content">
+						  	<div class="filtr-container">
+						  		<div class="row">
+
+						  			<div class="col-md-6">
+						  				<div class="filtr-item">
+											<img src="static/images/gallary/Maharashtra.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Jammu & Kashmir
+												</a>
+												<p><span>20 tours</span><span>15 places</span></p>
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6">
+						  				<div class="filtr-item">
+											<img src="static/images/gallary/Rajasthan.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Punjab
+												</a>
+												<p><span>12 tours</span><span>9 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="static/images/gallary/Sikkim.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Sikkim
+												</a>
+												<p><span>25 tours</span><span>10 places</span></p>
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="static/images/gallary/Kerala.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Kerala
+												</a>
+												<p><span>18 tours</span><span>9 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="static/images/gallary/Himachal.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Himachal Pradesh
+												</a>
+												<p><span>14 tours</span><span>12 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-8">
+						  				<div class="filtr-item">
+											<img src="static/images/gallary/Goa.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Goa
+												</a>
+												<p><span>14 tours</span><span>6 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  		</div><!-- /.row -->
+
+						  	</div><!-- /.filtr-container-->
+						</div><!-- /.gallery-content -->
+					</div><!--/.galley-box-->
+				</div><!--/.gallery-details-->
+			</div><!--/.container-->
+
+		</section><!--/.gallery-->
+		<!--gallery end-->
 		
 		<!--packages start-->
 		<section id="pack" class="packages">
@@ -875,6 +962,7 @@
 		</section><!--/.packages-->
 		<!--packages end-->
 
+		
 		<!-- testemonial Start -->
 		<section   class="testemonial">
 			<div class="container">
@@ -895,44 +983,21 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="static/images/client/testimonial1.jpg" alt="img"/>
+								<img src="static/images/client/testimonial2.jpg" alt="img"/>
 							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
 								</span>
 								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+									Experience was awesome. Would like to plan for more trips with GYPSYTravels
 								</p>
 								<h3>
 									<a href="#">
-										Pravin Nair
+										Jeff Bezos
 									</a>
 								</h3>
 								<h4>Tiruvananthpuram, Kerala</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="static/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										Shweta Tiwari
-									</a>
-								</h3>
-								<h4>Mumbai, Maharashtra</h4>
 							</div><!--/.home1-testm-txt-->	
 						</div><!--/.home1-testm-single-->
 
@@ -947,12 +1012,33 @@
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
 								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								<p>Prefer GYPSYToursandTravels
 								</p>
 								<h3>
 									<a href="#">
-										Karan Patil
+										Elon Musk
+									</a>
+								</h3>
+								<h4>Mumbai, Maharashtra</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="static/images/client/testimonial3.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p> Nice
+								</p>
+								<h3>
+									<a href="#">
+										Bill Gates
 									</a>
 								</h3>
 								<h4>Aurangabad, Maharashtra</h4>
@@ -967,8 +1053,79 @@
 
 		</section><!--/.testimonial-->	
 		<!-- testemonial End -->
+        
 
+		<!--special-offer start-->
+		<section id="spo" class="special-offer" style="background-image: url('static/images/offer/offerss.jpg');">
+			<div class="container"  >
+				<div class="special-offer-content">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="single-special-offer">
+								<div class="single-special-offer-txt">
+									<h2>AURANGABAD</h2>
+									<div class="packages-review special-offer-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span>2544 review</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="packages-para special-offer-para">
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i> 5 days 6 nights
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i> 2 person
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i>  5 star accomodation
+											</span>
+										</p>
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i>  transportation
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i>  food facilities
+											</span>  
+										</p>
+										<p class="offer-para">
+										    Visit Ajanta Caves, Bibi Ka Maqbara, Daulatabad Fort, Ellora Caves, Grishneshwar Temple, Jayakwadi Dam, Zainuddin Shirzai's Maqbara, Lonar Crater Lake, Pitalkhora Caves, Siddharth Garden, Shivaji Maharaj Museum, Goga Baba Hill, Sunheri Mahal, Gul Mandi, Bani Begum Garden and many more <br> In the City of Gates. 
+										</p>
+									</div><!--/.packages-para-->
+									<div class="offer-btn-group">
+										<div class="about-btn">
+											<button  class="about-view packages-btn">
+												book now
+											</button>
+										</div><!--/.about-btn-->
+									</div><!--/.offer-btn-group-->
+								</div><!--/.single-special-offer-txt-->
+							</div><!--/.single-special-offer-->
+						</div><!--/.col-->
+						<div class="col-sm-4">
+							<div class="single-special-offer">
+								<div class="single-special-offer-bg" >
+									<img src="static/images/offer/offer-shape.png" alt="offer-shape">
+								</div><!--/.single-special-offer-bg-->
+								<div class="single-special-shape-txt">
+									<h3>special offer</h3>
+									<h4><span>40%</span><br>off</h4>
+									<p><span>INR6000</span><br>regular INR 10000</p>
+								</div><!--/.single-special-shape-txt-->
+							</div><!--/.single-special-offer-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.special-offer-content-->
+			</div><!--/.container-->
 
+		</section><!--/.special-offer end-->
+		<!--special-offer end-->
 
 		<!-- footer-copyright start -->
 		<footer  class="footer-copyright">
@@ -1018,8 +1175,8 @@
 							<div class="single-footer-item text-center">
 								<h2 class="text-left">contacts</h2>
 								<div class="single-footer-txt text-left">
-									<p>+91 .........</p>
-									<p class="foot-email"><a href="#">ankitagurkhe@gmail.com</a></p>
+									<p>+91 9833474975</p>
+									<p class="foot-email"><a href="#">ankitagurkhe333@gmail.com</a></p>
 									<p>Mumbai</p>
 									<p>Maharashtra, India</p>
 								</div><!--/.single-footer-txt-->
