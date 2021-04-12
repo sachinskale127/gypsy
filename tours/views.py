@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'index.html')
+
+def travelbox(request):
+    return render(request, 'travelbox.html')
+
+def aboutus(request):
+    return render(request, 'aboutus.html')
