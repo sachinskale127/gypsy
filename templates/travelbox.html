@@ -87,10 +87,10 @@
             <div class="travel-select-icon">
             <select class="form-control ">
                 <option value="default">enter your destination location</option><!-- /.option-->
-                        <option value="Kolkata">Kolkata</option><!-- /.option-->
-                        <option value="Chennai">Chennai</option><!-- /.option-->
-                        <option value="Kashmir">Kashmir</option><!-- /.option-->
-                </select><!-- /.select-->
+                {% for t in spcl %}
+                        <option value="{{t.id}}">{{t.name}}</option><!-- /.option-->
+                {% endfor %}
+            </select><!-- /.select-->
                 </div><!-- /.travel-select-icon -->
 
             </div><!--/.single-tab-select-box-->
@@ -182,7 +182,7 @@
                                     <div class="clo-sm-7">
                                         <div class="about-btn travel-mrt-0 pull-right">
                                             <button  class="about-view travel-btn">
-                                                search	
+                                                Checkout	
                                             </button><!--/.travel-btn-->
                                         </div><!--/.about-btn-->
                                     </div><!--/.col-->

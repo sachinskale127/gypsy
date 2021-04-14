@@ -14,4 +14,5 @@ def aboutus(request):
     return render(request,'aboutus.html')
 
 def travelbox(request):
-    return render(request, 'travelbox.html')
+    spcl = specialpack.objects.all()
+    return render(request, 'travelbox.html', {'spcl': spcl})
