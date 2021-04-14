@@ -35,3 +35,6 @@ def success(request):
     email.send()
 
     return render(request, 'success.html')
+
+def payment(request):
+    return render(request, 'payment.html')
