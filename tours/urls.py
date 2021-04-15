@@ -9,5 +9,6 @@ urlpatterns = [
     path('travelbox/',views.travelbox, name='travelbox'),
     path('success/',views.success, name='success'),
     path('payment/',views.payment, name='payment'),
+    path('paypal/',views.paypal, name='paypal'),
 
 ]
