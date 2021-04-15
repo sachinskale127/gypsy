@@ -38,3 +38,6 @@ def success(request):
 
 def payment(request):
     return render(request, 'payment.html')
+
+def paypal(request):
+    return render(request, 'paypal.html')
