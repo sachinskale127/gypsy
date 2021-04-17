@@ -24,3 +24,23 @@ class  offers(models.Model):
 
     def __str__(self):
         return self.name
+
+class order(models.Model):
+    orderid = models.AutoField
+    bookingdate = models.DateTimeField(auto_now_add=True)    
+    destination =
+    member =
+    checkin = 
+    totalamount =
+    firstname = models.CharField(max_length=100,default='')
+    lastname = models.CharField(max_length=100,default='')
+    email =
+    mobile =
+    address =
+    city =
+    pincode =
+    state = 
+
+class menu(models.Model):
+    destination =
+    price =
