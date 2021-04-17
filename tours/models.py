@@ -28,7 +28,7 @@ class  offers(models.Model):
 class order(models.Model):
     orderid = models.AutoField
     bookingdate = models.DateTimeField(auto_now_add=True)    
-    destination =
+    destination = models.CharField(max_length=10000,default='')
     member =
     checkin = 
     totalamount =
@@ -36,10 +36,10 @@ class order(models.Model):
     lastname = models.CharField(max_length=100,default='')
     email =
     mobile =
-    address =
-    city =
+    address = models.CharField(max_length=10000,default='')
+    city = models.CharField(max_length=10000,default='')
     pincode =
-    state = 
+    state = models.CharField(max_length=10000,default='')
 
 class menu(models.Model):
     destination =
