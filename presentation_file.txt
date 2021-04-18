@@ -1,0 +1,19 @@
+tools used:
+ git : version control
+
+python main language.
+  
+  django : python macroframework
+  flask : python miniframework
+
+  libraries: django : development framework
+  pillow : library to handle images in thewebsite
+
+  technology used:
+   frontend :   html : body of the website
+                css : beautification
+                javascript : website action 
+    backend : python django SQLite
+
+    language framework database
+    
