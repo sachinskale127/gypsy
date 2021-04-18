@@ -29,18 +29,25 @@ class order(models.Model):
     orderid = models.AutoField
     bookingdate = models.DateTimeField(auto_now_add=True)    
     destination = models.CharField(max_length=10000,default='')
-    member = models.IntegerField(max_length=10000,default='1')
-    checkin = models.IntegerField(max_length=10000,default='1') 
-    totalamount = models.IntegerField(max_length=10000,default='0')
+    member = models.IntegerField(default='1')
+    checkin_day = models.IntegerField(default='') 
+    checkin_month = models.IntegerField(default='') 
+    totalamount = models.IntegerField(default='0')
     firstname = models.CharField(max_length=100,default='')
     lastname = models.CharField(max_length=100,default='')
     email = models.EmailField(max_length = 254)
-    mobile = models.IntegerField(max_length=10000,default='')
+    mobile = models.IntegerField(default='')
     address = models.CharField(max_length=10000,default='')
     city = models.CharField(max_length=10000,default='')
-    pincode = models.IntegerField(max_length=10000,default='')
+    pincode = models.IntegerField(default='')
     state = models.CharField(max_length=10000,default='')
+
+    def __str__(self):
+        return self.orderid
 
 class menu(models.Model):
     destination = models.CharField(max_length=10000,default='')
-    price = models.IntegerField(max_length=10000,default='0')
+    price = models.IntegerField(default='0')
+
+    def __str__(self):
+        return self.destination
