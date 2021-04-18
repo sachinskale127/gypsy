@@ -40,7 +40,7 @@ class  order(models.Model):
     Address = models.CharField(max_length=10000,default='')
     Address2 = models.CharField(max_length=400,default='')
     city = models.CharField(max_length=10000,default='')
-    pincode = models.IntegerField(max_length=10000,default='')
+    pincode = models.IntegerField(default='')
     state = models.CharField(max_length=10000,default='')
 
 
